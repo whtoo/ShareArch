@@ -7,6 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+typedef enum{
+    DEFAULTVIEW,
+    SNOWVIEW,
+    REDVIEW
+}ViewType;
+
 
 @interface NavControllerViewController : UIViewController
 

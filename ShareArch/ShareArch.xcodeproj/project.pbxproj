@@ -15,6 +15,9 @@
 		FD9E6CB8164F3F5A00C08386 /* WhtooAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9E6CB7164F3F5A00C08386 /* WhtooAppDelegate.m */; };
 		FDB2C80016587FB20021B3F7 /* GPool.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2C7FF16587FB20021B3F7 /* GPool.m */; };
 		FDB2C8071658861E0021B3F7 /* NavControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2C8061658861E0021B3F7 /* NavControllerViewController.m */; };
+		FDB2C81216588C030021B3F7 /* NavControllerViewController-red.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB2C80F16588C030021B3F7 /* NavControllerViewController-red.xib */; };
+		FDB2C81316588C030021B3F7 /* NavControllerViewController-snow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB2C81016588C030021B3F7 /* NavControllerViewController-snow.xib */; };
+		FDB2C81416588C030021B3F7 /* NavControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB2C81116588C030021B3F7 /* NavControllerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		FDB2C7FF16587FB20021B3F7 /* GPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPool.m; sourceTree = "<group>"; };
 		FDB2C8051658861E0021B3F7 /* NavControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavControllerViewController.h; sourceTree = "<group>"; };
 		FDB2C8061658861E0021B3F7 /* NavControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavControllerViewController.m; sourceTree = "<group>"; };
+		FDB2C80F16588C030021B3F7 /* NavControllerViewController-red.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "NavControllerViewController-red.xib"; sourceTree = "<group>"; };
+		FDB2C81016588C030021B3F7 /* NavControllerViewController-snow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "NavControllerViewController-snow.xib"; sourceTree = "<group>"; };
+		FDB2C81116588C030021B3F7 /* NavControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavControllerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		FD9E6CAD164F3F5A00C08386 /* ShareArch */ = {
 			isa = PBXGroup;
 			children = (
+				FDB2C80E16588C030021B3F7 /* Views */,
 				FDB2C8041658861D0021B3F7 /* Controllers */,
 				FDB2C7FD16587FB20021B3F7 /* GPool */,
 				FD9E6CB6164F3F5A00C08386 /* WhtooAppDelegate.h */,
@@ -114,6 +121,16 @@
 				FDB2C8061658861E0021B3F7 /* NavControllerViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FDB2C80E16588C030021B3F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2C80F16588C030021B3F7 /* NavControllerViewController-red.xib */,
+				FDB2C81016588C030021B3F7 /* NavControllerViewController-snow.xib */,
+				FDB2C81116588C030021B3F7 /* NavControllerViewController.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +186,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD9E6CB2164F3F5A00C08386 /* InfoPlist.strings in Resources */,
+				FDB2C81216588C030021B3F7 /* NavControllerViewController-red.xib in Resources */,
+				FDB2C81316588C030021B3F7 /* NavControllerViewController-snow.xib in Resources */,
+				FDB2C81416588C030021B3F7 /* NavControllerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
