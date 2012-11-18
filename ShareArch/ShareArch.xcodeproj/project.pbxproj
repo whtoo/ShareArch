@@ -13,6 +13,8 @@
 		FD9E6CB2164F3F5A00C08386 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD9E6CB0164F3F5A00C08386 /* InfoPlist.strings */; };
 		FD9E6CB4164F3F5A00C08386 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9E6CB3164F3F5A00C08386 /* main.m */; };
 		FD9E6CB8164F3F5A00C08386 /* WhtooAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9E6CB7164F3F5A00C08386 /* WhtooAppDelegate.m */; };
+		FDB2C80016587FB20021B3F7 /* GPool.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2C7FF16587FB20021B3F7 /* GPool.m */; };
+		FDB2C8071658861E0021B3F7 /* NavControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2C8061658861E0021B3F7 /* NavControllerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FD9E6CB5164F3F5A00C08386 /* ShareArch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareArch-Prefix.pch"; sourceTree = "<group>"; };
 		FD9E6CB6164F3F5A00C08386 /* WhtooAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhtooAppDelegate.h; sourceTree = "<group>"; };
 		FD9E6CB7164F3F5A00C08386 /* WhtooAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhtooAppDelegate.m; sourceTree = "<group>"; };
+		FDB2C7FE16587FB20021B3F7 /* GPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPool.h; sourceTree = "<group>"; };
+		FDB2C7FF16587FB20021B3F7 /* GPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPool.m; sourceTree = "<group>"; };
+		FDB2C8051658861E0021B3F7 /* NavControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavControllerViewController.h; sourceTree = "<group>"; };
+		FDB2C8061658861E0021B3F7 /* NavControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavControllerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,8 @@
 		FD9E6CAD164F3F5A00C08386 /* ShareArch */ = {
 			isa = PBXGroup;
 			children = (
+				FDB2C8041658861D0021B3F7 /* Controllers */,
+				FDB2C7FD16587FB20021B3F7 /* GPool */,
 				FD9E6CB6164F3F5A00C08386 /* WhtooAppDelegate.h */,
 				FD9E6CB7164F3F5A00C08386 /* WhtooAppDelegate.m */,
 				FD9E6CAE164F3F5A00C08386 /* Supporting Files */,
@@ -88,6 +96,24 @@
 				FD9E6CB5164F3F5A00C08386 /* ShareArch-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDB2C7FD16587FB20021B3F7 /* GPool */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2C7FE16587FB20021B3F7 /* GPool.h */,
+				FDB2C7FF16587FB20021B3F7 /* GPool.m */,
+			);
+			path = GPool;
+			sourceTree = "<group>";
+		};
+		FDB2C8041658861D0021B3F7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2C8051658861E0021B3F7 /* NavControllerViewController.h */,
+				FDB2C8061658861E0021B3F7 /* NavControllerViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +181,8 @@
 			files = (
 				FD9E6CB4164F3F5A00C08386 /* main.m in Sources */,
 				FD9E6CB8164F3F5A00C08386 /* WhtooAppDelegate.m in Sources */,
+				FDB2C80016587FB20021B3F7 /* GPool.m in Sources */,
+				FDB2C8071658861E0021B3F7 /* NavControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +255,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareArch/ShareArch-Prefix.pch";
 				INFOPLIST_FILE = "ShareArch/ShareArch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -238,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareArch/ShareArch-Prefix.pch";
 				INFOPLIST_FILE = "ShareArch/ShareArch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -262,6 +292,7 @@
 				FD9E6CBD164F3F5A00C08386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
